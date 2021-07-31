@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:id="@+id/score_layout"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Score"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:padding="5dp"
+        android:id="@+id/tvScore"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRestart"
+        android:layout_marginTop="9dp"
+        android:text="Restart Exame"
+        android:background="@color/teal_200"
+        />
+
+
+
+
+
+</LinearLayout>

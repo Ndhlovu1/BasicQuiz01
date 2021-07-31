@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de questions"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/TVQuestionAttempted"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#A60A13"
+        android:layout_below="@+id/TVQuestionAttempted"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTVQuestion"
+        android:layout_below="@+id/TVQuestionAttempted"
+        android:gravity="center"
+        android:text="Question"
+        android:textSize="25dp"
+        android:layout_marginTop="90dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/idTVQuestion"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option A"
+            android:id="@+id/btnoptionA"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="12dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option B"
+            android:id="@+id/btnoptionB"
+            android:layout_marginBottom="12dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option C"
+            android:id="@+id/btnoptionC"
+            android:layout_marginBottom="12dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option D"
+            android:id="@+id/btnoptionD"
+            android:layout_marginBottom="12dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
